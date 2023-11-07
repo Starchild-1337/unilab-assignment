@@ -1,0 +1,78 @@
+.wrapper {
+  border-radius: 8px;
+  padding-bottom: .75rem;
+  background-color: #fff;
+  margin-top: 2rem;
+}
+
+.table {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+  table-layout: fixed;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.table tr {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.table tr:first-child {
+  border-bottom: 1px solid #315C8E;
+}
+
+.table tr:last-child {
+  margin-bottom: 1rem;
+}
+
+.table tr:nth-child(even) {
+  background-color: #F6F6F6;
+}
+
+.table td,
+.table th {
+  width: 180px;
+  margin: 0 2rem;
+  text-align: center;
+}
+
+.table th {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.table .th-score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.th-score .sort-icon {
+  margin-left: .4rem;
+}
+
+.table td {
+  text-transform: uppercase;
+}
+
+.table::-webkit-scrollbar {
+  position: absolute;
+  height: 30px;
+}
+
+.table::-webkit-scrollbar-track {
+  border-radius: 100vw;
+  border: 1px solid #E9E9E9;
+}
+
+.table::-webkit-scrollbar-thumb {
+  background-color: #E9E9E9;
+  border: 8px solid transparent;
+  background-clip: padding-box;
+  border-radius: 100vw;
+}

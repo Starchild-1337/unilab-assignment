@@ -1,0 +1,28 @@
+.popup {
+  position: fixed;
+  width: 340px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 40px;
+  opacity: 1;
+}
+
+.popup h4 {
+  text-align: center;
+  font-size: 26px;
+  color: #585757;
+}
+
+.popup-btns {
+  display: flex;
+  gap: 4rem;
+}
+
+.popup-btns button {
+  padding: 10px;
+  border-radius: 6px;
+}

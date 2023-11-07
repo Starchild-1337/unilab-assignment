@@ -1,0 +1,43 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  color: #e7e4e4;
+}
+
+.pagination .page {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination .page.active-page {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  text-shadow: 0 0 3px #fff;
+}
+
+.pagination .chevrons {
+  display: flex;
+  align-items: center;
+}
+
+.pagination .chevron {
+  cursor: pointer;
+}
+
+/* DARK */
+
+.pagination.dark {
+  color: #182029;
+}
+
+.pagination.dark .chevron path {
+  stroke: #182029;
+}
+
+.pagination.dark .page.active-page {
+  border-bottom: 1px solid #000;
+  color: #000;
+  text-shadow: 0 0 1px #000;
+}

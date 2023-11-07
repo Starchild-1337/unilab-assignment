@@ -1,0 +1,35 @@
+.chevron-dropdown path {
+  stroke: #274D78;
+}
+
+.chevron-dropdown {
+  height: 20px;
+  width: 20px;
+  transition: all .2s ease-in;
+  cursor: pointer;
+}
+
+.chevron-dropdown.show {
+  transform: rotate(90deg);
+}
+
+.filter-categories {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem;
+  height: 0px;
+  overflow: hidden;
+  transition: all .1s ease-in-out;
+}
+
+.filter-categories.show {
+  height: 56px;
+}
+
+.filter-categories .form-control {
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,24 @@
+.blog__container {
+  background-color: #f1eeee;
+  padding: 4rem 0;
+  min-height: 100vh;
+}
+
+.blog {
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: calc(100vh - 120px);
+}
+
+.post{
+  margin-bottom: 2rem;
+}
+
+.post:last-child {
+  margin-bottom: 4rem;
+}
+
+.post__title {
+  margin-bottom: .75rem;
+  font-size: 24px;
+}

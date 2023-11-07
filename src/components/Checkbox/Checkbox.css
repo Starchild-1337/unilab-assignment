@@ -1,0 +1,26 @@
+.filter-categories .form-control label {
+  margin-left: .75rem;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background-color: #3669A2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]::after {
+  content: url('../../assets/check.svg');
+  margin-top: 4px;
+  display: none;
+}
+
+input[type="checkbox"]:checked::after {
+  display: block;
+}
