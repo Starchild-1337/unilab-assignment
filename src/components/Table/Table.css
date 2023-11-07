@@ -15,7 +15,7 @@
 }
 
 .table tr {
-  height: 75px;
+  height: 65px;
   display: flex;
   align-items: center;
   overflow: hidden;
