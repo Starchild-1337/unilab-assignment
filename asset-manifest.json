@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/unilab-assignment/static/css/main.5054172e.css",
+    "main.js": "/unilab-assignment/static/js/main.ee325792.js",
+    "static/media/stars.png": "/unilab-assignment/static/media/stars.8126b9670e0c216cd205.png",
+    "static/media/filter.svg": "/unilab-assignment/static/media/filter.029f31d93d5f0bfd79fe3cb0907b0737.svg",
+    "index.html": "/unilab-assignment/index.html",
+    "static/media/sort.svg": "/unilab-assignment/static/media/sort.8fcb2b8d071ec857fe5386fa323c8507.svg",
+    "static/media/search.svg": "/unilab-assignment/static/media/search.c11dacd473c57226512d0f68361d9d30.svg",
+    "static/media/chevrons-left.svg": "/unilab-assignment/static/media/chevrons-left.63f47071e92af310605a1b97b0c5abb9.svg",
+    "static/media/chevrons-right.svg": "/unilab-assignment/static/media/chevrons-right.df80c35f98129321b493bca0284b2937.svg",
+    "static/media/check.svg": "/unilab-assignment/static/media/check.373a136bbfe3b0eab9de.svg",
+    "static/media/chevron-left.svg": "/unilab-assignment/static/media/chevron-left.29962df6dd7498c828435ef0cdd32ce1.svg",
+    "static/media/chevron-right.svg": "/unilab-assignment/static/media/chevron-right.e684cb98f4103b0520a1f3d15bdcacf2.svg",
+    "main.5054172e.css.map": "/unilab-assignment/static/css/main.5054172e.css.map",
+    "main.ee325792.js.map": "/unilab-assignment/static/js/main.ee325792.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5054172e.css",
+    "static/js/main.ee325792.js"
+  ]
+}
