@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/unilab-assignment/static/css/main.a2ee6546.css",
-    "main.js": "/unilab-assignment/static/js/main.ee325792.js",
+    "main.css": "/unilab-assignment/static/css/main.ca512656.css",
+    "main.js": "/unilab-assignment/static/js/main.c4ff33d6.js",
     "static/media/stars.png": "/unilab-assignment/static/media/stars.8126b9670e0c216cd205.png",
     "static/media/filter.svg": "/unilab-assignment/static/media/filter.029f31d93d5f0bfd79fe3cb0907b0737.svg",
     "index.html": "/unilab-assignment/index.html",
@@ -12,11 +12,11 @@
     "static/media/check.svg": "/unilab-assignment/static/media/check.373a136bbfe3b0eab9de.svg",
     "static/media/chevron-left.svg": "/unilab-assignment/static/media/chevron-left.29962df6dd7498c828435ef0cdd32ce1.svg",
     "static/media/chevron-right.svg": "/unilab-assignment/static/media/chevron-right.e684cb98f4103b0520a1f3d15bdcacf2.svg",
-    "main.a2ee6546.css.map": "/unilab-assignment/static/css/main.a2ee6546.css.map",
-    "main.ee325792.js.map": "/unilab-assignment/static/js/main.ee325792.js.map"
+    "main.ca512656.css.map": "/unilab-assignment/static/css/main.ca512656.css.map",
+    "main.c4ff33d6.js.map": "/unilab-assignment/static/js/main.c4ff33d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2ee6546.css",
-    "static/js/main.ee325792.js"
+    "static/css/main.ca512656.css",
+    "static/js/main.c4ff33d6.js"
   ]
 }
