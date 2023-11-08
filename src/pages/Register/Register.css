@@ -9,10 +9,10 @@
 .register__card {
   width: 100%;
   max-width: 794px;
-  height: 894px;
+  height: 800px;
   text-align: center;
   margin: 0 auto;
-  padding: 3rem 1rem;
+  padding: 1rem;
   background-color: #fff;
   border-radius: 25px;
 }
@@ -21,13 +21,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .register__card h2 {
   font-size: 64px;
   font-weight: 400;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .register__card h4 {

@@ -27,10 +27,6 @@ const FilterCategory = ({ name, filterData, handleCheckbox, setPage }) => {
             </div>
           );
         })}
-        {/* <div className="form-control">
-          <input type="checkbox" id="male" />
-          <label htmlFor="male">Inactive</label>
-        </div> */}
       </div>
     </>
   );

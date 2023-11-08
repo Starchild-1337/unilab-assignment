@@ -67,6 +67,7 @@ const API = () => {
             setPage={setPage}
             list={list}
             color="dark"
+            isBlog
           />
         </>
       )}

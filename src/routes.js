@@ -4,9 +4,11 @@ import Register from "./pages/Register/Register";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import API from "./pages/API/API";
 import Form from "./pages/Form/Form";
+import ErrorPage from "./pages/Error/Error";
 
 const router = createHashRouter([
   {
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",

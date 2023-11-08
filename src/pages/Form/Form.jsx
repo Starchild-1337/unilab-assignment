@@ -73,7 +73,7 @@ const Form = () => {
           </ul>
         </div>
       )}
-      <div className="test">
+      <div>
         <div className="form__filters">
           <button
             className="filter btn"
