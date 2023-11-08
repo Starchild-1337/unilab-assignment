@@ -4,20 +4,32 @@ import { ReactComponent as ChevronRight } from "../../assets/chevron-right.svg";
 import { ReactComponent as ChevronsRight } from "../../assets/chevrons-right.svg";
 import "./Pagination.css";
 
-const Pagination = ({ pageCount, page, setPage, list, color }) => {
+const Pagination = ({ pageCount, page, setPage, list, color, isBlog }) => {
   const handlePageChange = (newPage) => {
-    setPage(newPage);
+    setPage((prevPage) => {
+      if (prevPage !== newPage) {
+        handleScroll();
+        return newPage;
+      }
+      return prevPage;
+    });
+  };
+
+  const handleScroll = () => {
+    if (isBlog) {
+      window.scrollTo(0, 0);
+    }
   };
 
   const handlePrevPage = (type) => {
     if (type === "PREV_PAGE") {
       const prevPage = page - 1;
 
-      prevPage < 1 ? setPage(1) : setPage(prevPage);
+      prevPage < 1 ? handlePageChange(1) : handlePageChange(prevPage);
     }
 
     if (type === "START_PAGE") {
-      setPage(1);
+      handlePageChange(1);
     }
   };
 
@@ -25,11 +37,13 @@ const Pagination = ({ pageCount, page, setPage, list, color }) => {
     if (type === "NEXT_PAGE") {
       const nextPage = page + 1;
 
-      nextPage > pageCount ? setPage(pageCount) : setPage(nextPage);
+      nextPage > pageCount
+        ? handlePageChange(pageCount)
+        : handlePageChange(nextPage);
     }
 
     if (type === "LAST_PAGE") {
-      setPage(pageCount);
+      handlePageChange(pageCount);
     }
   };
 
